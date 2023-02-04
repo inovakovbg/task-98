@@ -1,4 +1,5 @@
-import styles from "./LoginForm.modules.css";
+import styles from "./LoginForm.module.css";
+
 
 
 function LoginForm() {
@@ -7,9 +8,10 @@ function LoginForm() {
 
         <div>
             <form className={styles.form}>
-                <label className={styles.label}> Регистрационна форма</label>
+                <label className={styles.label}> Name:</label>
               
                 <input className={styles.input} id='name' type="text" placeholder="Name" />
+                <label className={styles.label}> Password</label>
                 <input className={styles.input} id='password' type="password" placeholder="password" />
               
 
