@@ -1,4 +1,5 @@
 import "./App.css";
+import LoginForm from "./components/LoginForm";
 
 function App() {
   return (
@@ -9,11 +10,8 @@ function App() {
           <p class="subtitle">by Boom.dev</p>
         </div>
       </section>
-      <div class="container is-fullhd">
-        <div class="notification">
-          Edit the <code>./src</code> folder to add components.
-        </div>
-      </div>
+      
+      <LoginForm />
     </div>
   );
 }
