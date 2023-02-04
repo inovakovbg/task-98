@@ -1,4 +1,4 @@
-form {
+.form {
   margin: auto;
   padding: 10px;
   border: 1px solid #c9c9c9;
@@ -8,13 +8,13 @@ form {
   display: block;
 }
 
-label {
+.label {
   margin: 10px 0 5px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
 
-input {
+.input {
   margin: 5px 0 10px 0;
   padding: 5px;
   border: 1px solid #bfbfbf;
@@ -23,7 +23,7 @@ input {
   width: 100%;
 }
 
-submit {
+.submit {
   margin: 10px 0 0 0 ;
   padding: 7px 10px;
   border: 1px solid #efffff;
