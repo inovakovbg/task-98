@@ -11,15 +11,15 @@ function LoginForm() {
 
         <div className="main">
             <form className={styles.form}>
-                <label className={styles.label} for='username'>username:
+                <label className={styles.label} htmlfor='username'>username</label> 
                                          
                 <input className={styles.input}  id='username' type="text" placeholder="username" />
-                {/* </label> 
                 
-                <label className={styles.label} for='password'>password         */}
+                
+                <label className={styles.label} htmlfor='password'>password</label>      
              
                 <input className={styles.input} id='password' type="password" placeholder="password" />
-                </label>
+               
 
                 <input className={styles.submit} type="submit" value="Submit" />
                
