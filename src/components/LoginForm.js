@@ -14,9 +14,9 @@ function LoginForm() {
                 <label className={styles.label} for='username'>username:
                                          
                 <input className={styles.input}  id='username' type="text" placeholder="username" />
-                </label> 
+                {/* </label> 
                 
-                <label className={styles.label} for='password'>password        
+                <label className={styles.label} for='password'>password         */}
              
                 <input className={styles.input} id='password' type="password" placeholder="password" />
                 </label>
